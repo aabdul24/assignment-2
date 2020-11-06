@@ -32,3 +32,12 @@ body {
         width: 100%;
         padding: 10px;
       }
+
+    .suggestions {
+
+        display: flex;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+
+    }
