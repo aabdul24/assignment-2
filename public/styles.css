@@ -33,11 +33,14 @@ body {
         padding: 10px;
       }
 
-    .suggestions {
+    li {
+        margin: 5px;
+        padding: 5px;
+        max-width: 500px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(223,232,45,1) 35%, rgba(0,212,255,1) 100%);
+    }
 
-        display: flex;
-        width: 300px;
-        border: 15px solid green;
-        padding: 50px;
-
+    .name {
+        font-size: 50px;
     }
